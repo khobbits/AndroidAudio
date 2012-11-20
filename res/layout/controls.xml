@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent" android:orientation="vertical"
+	android:paddingLeft="10px" android:paddingRight="10px"
+	android:paddingTop="10px" android:paddingBottom="10px">
+	<RelativeLayout android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" android:layout_width="fill_parent">
+		<ImageView android:layout_height="wrap_content" android:id="@+id/imageView1"
+			android:src="@drawable/viaero" android:layout_width="wrap_content"
+			android:layout_alignParentTop="true" android:layout_alignParentRight="true"></ImageView>
+	</RelativeLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout4">
+		<TextView android:id="@+id/output" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:singleLine="false"
+			android:text="" />
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout5">
+		<TextView android:id="@+id/np" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="" />
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout5">
+		<TextView android:id="@+id/position" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="" />
+
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout6">
+		<ImageButton android:id="@+id/play" style="@android:style/MediaButton.Play" />
+		<ImageButton android:id="@+id/stop" style="@android:style/MediaButton" />
+	</LinearLayout>
+</LinearLayout>
